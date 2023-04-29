@@ -1,0 +1,70 @@
+/* Fontes modernas e legíveis */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration-color: #fff;
+
+    background-color: rgb(33, 33, 33);
+    background-size: cover;
+}
+
+/* Formatação do título */
+.title {
+    text-align: left;
+    padding-left: 20%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(183, 183, 183);
+    text-shadow: 2px 2px rgb(80, 80, 80);
+}
+
+.title2 {
+    text-align: left;
+    padding-left: 20%;
+    font-size: 40px;
+    margin-bottom: -30px;
+    color: #fff;
+    text-shadow: 2px 2px rgb(80, 80, 80);
+}
+
+/* Estilo do botão */
+button {
+    background-color: #29708e;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 5px 50px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btnDiv {
+    padding-left: 20%;
+    text-align: left;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: #ff3f4f;
+    cursor: pointer;
+}
+
+/* Estilo das perguntas e desafios */
+.respost {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 2px rgb(80, 80, 80);
+    padding: 10%;
+}
+
+/* Formulário para adicionar novas perguntas ou desafios */
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 20px;
+    color: #fefefe;
+    padding: 10px;
+    padding-left: 20%;
+}

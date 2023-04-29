@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Verdade ou Desafio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1 class="title2">Verdade ou Desafio</h1>
+    <p class="title">Selecione uma opção:</p>
+    <form id="form">
+        <label>
+            <input type="radio" name="opcao" value="verdade"> Verdade
+        </label>
+        <label>
+            <input type="radio" name="opcao" value="desafio"> Desafio
+        </label>
+    </form>
+    <div class="btnDiv">
+        <button onclick="jogar()">Jogar</button>
+    </div>
+    <div id="pergunta" class="respost"></div>
+    <div id="resposta"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
